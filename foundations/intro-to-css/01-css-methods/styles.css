@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    text-align: center;
+    background-color: red;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div,
+p {
+    color: white;
+}
+
+div,
+p,
+button {
+    margin: 6px 6px 12px;
+}
