@@ -20,6 +20,22 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.container section{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.header{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .icon {
@@ -50,6 +66,14 @@ body {
   padding: 0;
 }
 
+.btm-container{
+  margin-left: 3.5em;  
+}
+
+.text{
+  font-size: 15px;
+  margin-bottom: 19px;
+}
 button {
   cursor: pointer;
   padding: 8px 16px;
@@ -62,8 +86,20 @@ button.continue {
   color: white;
 }
 
+button.continue:hover{
+  background: rgb(44, 72, 155);
+  transition: .5s linear;
+}
+
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+button.cancel:hover{
+  background: rgb(151, 151, 151);
+  transition: .5s linear;
+
+
 }
