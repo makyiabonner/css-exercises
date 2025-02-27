@@ -10,6 +10,21 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 40px;
+}
+
+.plant {
+  text-align: center;  
+  flex: 1 1 0;
 }
 
 /* do not edit this footer */
